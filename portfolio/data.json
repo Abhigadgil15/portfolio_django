@@ -1,0 +1,11 @@
+{
+    "NAME": "Abhinav2 Gadgil",
+    "ABOUT_ME": " Hello I am Abhinav. Nice to meet you!😎. I am co-founder of Hexaberry DataScience community(HDSC). i am currently learning Django and computer vision. I am adept at Machine learning and looking to develop project with different companies.",
+    "LANGUAGES": [ "Python", "JavaScript","Django", "C++"],
+    "PROJECTS": [
+        ["filter_drama","Google","I didn't create google but still."],
+        ["place","Youtube","I didn't create youtube but still."],
+        ["whatshot","Gmail","Same goes for gmail but ok."]
+    ]
+
+}

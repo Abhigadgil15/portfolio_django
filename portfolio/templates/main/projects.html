@@ -1,0 +1,51 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+    {% include 'main/nav.html' %}
+
+    <div class = "container">
+        <h1 class = "center-align">Projects</h1>
+        <div class = "row">
+            <div class = "col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Beekeeping</span>
+                      <p>These are the few of the projects i created.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                      <a href="#">This is a link</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class = "col s12 m6">
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Google</div>
+                      <div class="collapsible-body"><span>I didn't create google but still.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">place</i>Youtube</div>
+                      <div class="collapsible-body"><span>I didn't create youtube but still</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Gmail</div>
+                      <div class="collapsible-body"><span>Same goes for gmail but ok.</span></div>
+                    </li>
+                  </ul>
+            </div>
+            
+
+        </div>
+
+    </div>
+{% endblock %}
+{% block script %}
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+  });
+</script>
+{% endblock %}
